@@ -1,0 +1,32 @@
+{
+  "name": "travel-packages-site-mechanism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "abraxas": "^2.1.10",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "node .",
+    "node-worker": "node worker/node-worker.js",
+    "node-client": "node client/node-client.js"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bear-gold-team/Travel-packages-site-mechanism.git"
+  },
+  "keywords": [
+    "gearman",
+    "job",
+    "woker",
+    "client"
+  ],
+  "author": "jsgrowing315",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bear-gold-team/Travel-packages-site-mechanism/issues"
+  },
+  "homepage": "https://github.com/bear-gold-team/Travel-packages-site-mechanism#readme"
+}
